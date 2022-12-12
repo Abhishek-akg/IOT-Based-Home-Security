@@ -24,3 +24,8 @@ $ pip install opencv2
 $ pip install pillow
 $ sudo apt-get install python-rpi.gpio python3-rpi.gpio
 ```
+
+Now to run the program
+```
+$ python face_recog.py
+```
