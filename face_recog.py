@@ -13,10 +13,10 @@ GPIO.setup(3, GPIO.OUT, initial = GPIO.LOW)
 video_capture = cv2.VideoCapture(0)
 print(video_capture)
 
-bishal_image = face_recognition.load_image_file("/home/homesec/Downloads/yolo/1b.jpg")
+bishal_image = face_recognition.load_image_file("<image_path>/1b.jpg")
 bishal_face_encoding = face_recognition.face_encodings(bishal_image)[0]
 
-prayag_image = face_recognition.load_image_file("/home/homesec/Downloads/yolo/2p.jpg")
+prayag_image = face_recognition.load_image_file("<image_path>/2p.jpg")
 prayag_face_encoding = face_recognition.face_encodings(prayag_image)[0]
 
 known_face_encodings = [
